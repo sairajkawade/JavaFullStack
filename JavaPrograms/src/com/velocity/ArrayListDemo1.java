@@ -8,9 +8,15 @@ public class ArrayListDemo1 {
 		// add elements
 		list.add("ram");
 		list.add("shyam");
-		list.add("vikas");
+		list.add("baban");
 		list.add("yogesh");
-		System.out.println(list);
+		list.add("avinash");
+		Collections.sort(list);
+		System.out.println("*** Sorted names are below ***");
+		
+		for(String str : list) {
+			System.out.println(str);
+		}
 	}
 
 }
